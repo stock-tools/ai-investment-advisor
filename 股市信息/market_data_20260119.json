@@ -1,0 +1,1393 @@
+警告: Holdings.md 不存在: /Users/bytedance/Documents/stock-agent/ai-investment-advisor/scripts/../Config/Holdings.md
+解析到持仓: ETF=0, A股=0, 港股=0, 基金=0
+警告: Watchlist.md 不存在: /Users/bytedance/Documents/stock-agent/ai-investment-advisor/scripts/../Config/Watchlist.md
+获取指数...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.94s/it]100%|██████████| 2/2 [00:03<00:00,  1.66s/it]                                             获取ETF...
+  0%|          | 0/13 [00:00<?, ?it/s]  8%|▊         | 1/13 [00:01<00:20,  1.69s/it] 15%|█▌        | 2/13 [00:02<00:13,  1.20s/it] 23%|██▎       | 3/13 [00:03<00:12,  1.24s/it] 31%|███       | 4/13 [00:05<00:13,  1.48s/it] 38%|███▊      | 5/13 [00:06<00:09,  1.24s/it] 46%|████▌     | 6/13 [00:11<00:16,  2.42s/it] 54%|█████▍    | 7/13 [00:12<00:11,  1.91s/it] 62%|██████▏   | 8/13 [00:13<00:08,  1.78s/it] 69%|██████▉   | 9/13 [00:14<00:05,  1.47s/it] 77%|███████▋  | 10/13 [00:16<00:04,  1.54s/it] 85%|████████▍ | 11/13 [00:17<00:02,  1.42s/it] 92%|█████████▏| 12/13 [00:18<00:01,  1.49s/it]100%|██████████| 13/13 [00:21<00:00,  1.75s/it]                                               获取A股...
+  0%|          | 0/57 [00:00<?, ?it/s]  2%|▏         | 1/57 [00:00<00:46,  1.20it/s]  4%|▎         | 2/57 [00:02<01:08,  1.24s/it]  5%|▌         | 3/57 [00:04<01:30,  1.67s/it]  7%|▋         | 4/57 [00:05<01:19,  1.50s/it]  9%|▉         | 5/57 [00:07<01:14,  1.44s/it] 11%|█         | 6/57 [00:08<01:09,  1.36s/it] 12%|█▏        | 7/57 [00:09<01:12,  1.45s/it] 14%|█▍        | 8/57 [00:12<01:22,  1.68s/it] 16%|█▌        | 9/57 [00:13<01:19,  1.65s/it] 18%|█▊        | 10/57 [00:15<01:15,  1.60s/it] 19%|█▉        | 11/57 [00:16<01:05,  1.43s/it] 21%|██        | 12/57 [00:17<01:05,  1.45s/it] 23%|██▎       | 13/57 [00:18<00:56,  1.28s/it] 25%|██▍       | 14/57 [00:20<01:00,  1.41s/it] 26%|██▋       | 15/57 [00:21<00:54,  1.31s/it] 28%|██▊       | 16/57 [00:23<01:00,  1.46s/it] 30%|██▉       | 17/57 [00:24<00:50,  1.26s/it] 32%|███▏      | 18/57 [00:25<00:53,  1.38s/it] 33%|███▎      | 19/57 [00:26<00:50,  1.34s/it] 35%|███▌      | 20/57 [00:27<00:45,  1.23s/it] 37%|███▋      | 21/57 [00:28<00:41,  1.16s/it] 39%|███▊      | 22/57 [00:30<00:41,  1.19s/it] 40%|████      | 23/57 [00:31<00:42,  1.24s/it] 42%|████▏     | 24/57 [00:32<00:39,  1.21s/it] 44%|████▍     | 25/57 [00:33<00:38,  1.19s/it] 46%|████▌     | 26/57 [00:35<00:38,  1.23s/it] 47%|████▋     | 27/57 [00:35<00:33,  1.12s/it] 49%|████▉     | 28/57 [00:37<00:36,  1.25s/it] 51%|█████     | 29/57 [00:39<00:37,  1.35s/it] 53%|█████▎    | 30/57 [00:40<00:32,  1.22s/it] 54%|█████▍    | 31/57 [00:41<00:30,  1.19s/it] 56%|█████▌    | 32/57 [00:42<00:30,  1.24s/it] 58%|█████▊    | 33/57 [00:43<00:29,  1.22s/it] 60%|█████▉    | 34/57 [00:45<00:28,  1.26s/it] 61%|██████▏   | 35/57 [00:45<00:24,  1.13s/it] 63%|██████▎   | 36/57 [00:47<00:26,  1.25s/it] 65%|██████▍   | 37/57 [00:48<00:26,  1.31s/it] 67%|██████▋   | 38/57 [00:49<00:23,  1.22s/it] 68%|██████▊   | 39/57 [00:50<00:20,  1.11s/it] 70%|███████   | 40/57 [00:52<00:21,  1.25s/it] 72%|███████▏  | 41/57 [00:53<00:18,  1.18s/it] 74%|███████▎  | 42/57 [00:54<00:19,  1.28s/it] 75%|███████▌  | 43/57 [00:56<00:18,  1.35s/it] 77%|███████▋  | 44/57 [00:57<00:17,  1.32s/it] 79%|███████▉  | 45/57 [00:58<00:13,  1.16s/it] 81%|████████  | 46/57 [00:59<00:13,  1.21s/it] 82%|████████▏ | 47/57 [01:00<00:10,  1.08s/it] 84%|████████▍ | 48/57 [01:02<00:11,  1.26s/it] 86%|████████▌ | 49/57 [01:03<00:10,  1.26s/it] 88%|████████▊ | 50/57 [01:04<00:09,  1.36s/it] 89%|████████▉ | 51/57 [01:06<00:08,  1.35s/it] 91%|█████████ | 52/57 [01:07<00:06,  1.38s/it] 93%|█████████▎| 53/57 [01:09<00:06,  1.59s/it] 95%|█████████▍| 54/57 [01:11<00:04,  1.58s/it] 96%|█████████▋| 55/57 [01:12<00:02,  1.41s/it] 98%|█████████▊| 56/57 [01:13<00:01,  1.26s/it]100%|██████████| 57/57 [01:14<00:00,  1.38s/it]                                               获取港股...
+  0%|          | 0/45 [00:00<?, ?it/s]  2%|▏         | 1/45 [00:00<00:32,  1.35it/s]  4%|▍         | 2/45 [00:02<00:52,  1.23s/it]  7%|▋         | 3/45 [00:03<00:46,  1.10s/it]  9%|▉         | 4/45 [00:04<00:50,  1.24s/it] 11%|█         | 5/45 [00:06<00:55,  1.40s/it] 13%|█▎        | 6/45 [00:07<00:51,  1.33s/it] 16%|█▌        | 7/45 [00:08<00:48,  1.28s/it] 18%|█▊        | 8/45 [00:10<00:49,  1.34s/it] 20%|██        | 9/45 [00:11<00:46,  1.29s/it] 22%|██▏       | 10/45 [00:12<00:38,  1.11s/it] 24%|██▍       | 11/45 [00:13<00:36,  1.07s/it] 27%|██▋       | 12/45 [00:13<00:31,  1.05it/s] 29%|██▉       | 13/45 [00:15<00:36,  1.13s/it] 31%|███       | 14/45 [00:17<00:40,  1.30s/it] 33%|███▎      | 15/45 [00:18<00:37,  1.24s/it] 36%|███▌      | 16/45 [00:19<00:35,  1.22s/it] 38%|███▊      | 17/45 [00:20<00:30,  1.10s/it] 40%|████      | 18/45 [00:20<00:27,  1.01s/it] 42%|████▏     | 19/45 [00:22<00:27,  1.05s/it] 44%|████▍     | 20/45 [00:23<00:28,  1.14s/it] 47%|████▋     | 21/45 [00:24<00:26,  1.11s/it] 49%|████▉     | 22/45 [00:25<00:24,  1.09s/it] 51%|█████     | 23/45 [00:26<00:25,  1.14s/it] 53%|█████▎    | 24/45 [00:27<00:22,  1.09s/it] 56%|█████▌    | 25/45 [00:29<00:23,  1.16s/it] 58%|█████▊    | 26/45 [00:30<00:21,  1.14s/it] 60%|██████    | 27/45 [00:31<00:24,  1.36s/it] 62%|██████▏   | 28/45 [00:32<00:21,  1.24s/it] 64%|██████▍   | 29/45 [00:34<00:19,  1.24s/it] 67%|██████▋   | 30/45 [00:35<00:19,  1.30s/it] 69%|██████▉   | 31/45 [00:36<00:18,  1.29s/it] 71%|███████   | 32/45 [00:38<00:19,  1.50s/it] 73%|███████▎  | 33/45 [00:40<00:18,  1.53s/it] 76%|███████▌  | 34/45 [00:41<00:14,  1.35s/it] 78%|███████▊  | 35/45 [00:42<00:12,  1.24s/it] 80%|████████  | 36/45 [00:43<00:11,  1.30s/it] 82%|████████▏ | 37/45 [00:45<00:10,  1.31s/it] 84%|████████▍ | 38/45 [00:46<00:09,  1.35s/it] 87%|████████▋ | 39/45 [00:48<00:09,  1.55s/it] 89%|████████▉ | 40/45 [00:49<00:06,  1.36s/it] 91%|█████████ | 41/45 [00:50<00:04,  1.19s/it] 93%|█████████▎| 42/45 [00:51<00:03,  1.26s/it] 96%|█████████▌| 43/45 [00:53<00:02,  1.44s/it] 98%|█████████▊| 44/45 [00:54<00:01,  1.24s/it]100%|██████████| 45/45 [00:56<00:00,  1.37s/it]                                               获取基金...
+获取宏观数据...
+获取北向资金...
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  2.44it/s] 67%|██████▋   | 2/3 [00:01<00:00,  1.23it/s]100%|██████████| 3/3 [00:01<00:00,  1.62it/s]                                             获取行业/概念板块...
+0it [00:00, ?it/s]                    0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:01<00:03,  1.15s/it] 50%|█████     | 2/4 [00:03<00:03,  1.72s/it] 75%|███████▌  | 3/4 [00:04<00:01,  1.63s/it]100%|██████████| 4/4 [00:06<00:00,  1.60s/it]                                             获取行业/概念资金流...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:00<00:00,  5.36it/s]100%|██████████| 2/2 [00:00<00:00,  6.48it/s]                                               0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:00<00:01,  6.10it/s] 25%|██▌       | 2/8 [00:00<00:01,  5.02it/s] 38%|███▊      | 3/8 [00:00<00:00,  5.51it/s] 50%|█████     | 4/8 [00:01<00:01,  2.88it/s] 62%|██████▎   | 5/8 [00:01<00:00,  3.69it/s] 75%|███████▌  | 6/8 [00:01<00:00,  4.37it/s] 88%|████████▊ | 7/8 [00:01<00:00,  4.84it/s]100%|██████████| 8/8 [00:01<00:00,  5.41it/s]                                             获取财联社快讯...
+{
+  "metadata": {
+    "date": "2026-01-19",
+    "time": "15:10",
+    "version": "2.0",
+    "source": "AKShare",
+    "technicals": {
+      "lookback_days": 450,
+      "note": "基于日线收盘价计算"
+    }
+  },
+  "watchlist_meta": {
+    "source": "Config/Watchlist.md",
+    "status": "missing",
+    "fallback": "default_watchlist_etf",
+    "focus_industries": [],
+    "excluded": []
+  },
+  "indices": {
+    "中证500": {
+      "price": 8287.95,
+      "change": 0.67
+    },
+    "上证指数": {
+      "price": 4114.0,
+      "change": 0.29
+    },
+    "沪深300": {
+      "price": 4734.46,
+      "change": 0.05
+    },
+    "科创50": {
+      "price": 1506.86,
+      "change": -0.48
+    }
+  },
+  "holdings": [],
+  "watchlist": [
+    {
+      "code": "588000",
+      "name": "科创50ETF",
+      "market": "A股",
+      "type": "ETF",
+      "watch_reason": "",
+      "core_metrics": "",
+      "ideal_buy": "",
+      "status": "",
+      "price": 1.586,
+      "change": -0.44,
+      "volume": 28306065.0,
+      "amount": 4504340920.0,
+      "turnover_rate": 5.33,
+      "main_net_inflow": -232871856.0,
+      "main_net_inflow_pct": -5.17,
+      "technicals": {
+        "status": "ok",
+        "as_of": "2026-01-19",
+        "data_points": 301,
+        "ma20": 1.4895,
+        "ma60": 1.4518,
+        "price_vs_ma20_pct": 6.48,
+        "price_vs_ma60_pct": 9.24,
+        "rsi14": 76.18,
+        "macd": 0.0466,
+        "macd_signal": 0.0354,
+        "macd_hist": 0.0112,
+        "volatility_20d": 23.82,
+        "momentum_20d": 15.26,
+        "high_52w": 1.618,
+        "low_52w": 0.97,
+        "from_high_52w_pct": -1.98,
+        "from_low_52w_pct": 63.51,
+        "price_percentile_1y": 95.06,
+        "trend": "上升"
+      }
+    },
+    {
+      "code": "515980",
+      "name": "人工智能ETF",
+      "market": "A股",
+      "type": "ETF",
+      "watch_reason": "",
+      "core_metrics": "",
+      "ideal_buy": "",
+      "status": "",
+      "price": 0.966,
+      "change": -2.23,
+      "volume": 9392739.0,
+      "amount": 913470446.0,
+      "turnover_rate": 9.59,
+      "main_net_inflow": -246454581.0,
+      "main_net_inflow_pct": -26.98,
+      "technicals": {
+        "status": "ok",
+        "as_of": "2026-01-19",
+        "data_points": 301,
+        "ma20": 0.9101,
+        "ma60": 0.866,
+        "price_vs_ma20_pct": 6.15,
+        "price_vs_ma60_pct": 11.54,
+        "rsi14": 71.15,
+        "macd": 0.0338,
+        "macd_signal": 0.0247,
+        "macd_hist": 0.0091,
+        "volatility_20d": 35.49,
+        "momentum_20d": 15.69,
+        "high_52w": 1.853,
+        "low_52w": 0.781,
+        "from_high_52w_pct": -47.87,
+        "from_low_52w_pct": 23.69,
+        "price_percentile_1y": 17.26,
+        "trend": "上升"
+      }
+    },
+    {
+      "code": "159995",
+      "name": "芯片ETF",
+      "market": "A股",
+      "type": "ETF",
+      "watch_reason": "",
+      "core_metrics": "",
+      "ideal_buy": "",
+      "status": "",
+      "price": 1.98,
+      "change": -0.35,
+      "volume": 5046253.0,
+      "amount": 1002568531.007,
+      "turnover_rate": 3.88,
+      "main_net_inflow": -34318400.0,
+      "main_net_inflow_pct": -3.42,
+      "technicals": {
+        "status": "ok",
+        "as_of": "2026-01-19",
+        "data_points": 301,
+        "ma20": 1.8249,
+        "ma60": 1.7498,
+        "price_vs_ma20_pct": 8.5,
+        "price_vs_ma60_pct": 13.16,
+        "rsi14": 78.13,
+        "macd": 0.0671,
+        "macd_signal": 0.0519,
+        "macd_hist": 0.0152,
+        "volatility_20d": 27.87,
+        "momentum_20d": 19.06,
+        "high_52w": 1.987,
+        "low_52w": 1.125,
+        "from_high_52w_pct": -0.35,
+        "from_low_52w_pct": 76.0,
+        "price_percentile_1y": 99.19,
+        "trend": "上升"
+      }
+    },
+    {
+      "code": "512690",
+      "name": "酒ETF",
+      "market": "A股",
+      "type": "ETF",
+      "watch_reason": "",
+      "core_metrics": "",
+      "ideal_buy": "",
+      "status": "",
+      "price": 0.535,
+      "change": -0.37,
+      "volume": 10257797.0,
+      "amount": 549272926.0,
+      "turnover_rate": 3.05,
+      "main_net_inflow": -56569256.0,
+      "main_net_inflow_pct": -10.3,
+      "technicals": {
+        "status": "ok",
+        "as_of": "2026-01-19",
+        "data_points": 301,
+        "ma20": 0.5462,
+        "ma60": 0.5673,
+        "price_vs_ma20_pct": -2.04,
+        "price_vs_ma60_pct": -5.69,
+        "rsi14": 36.84,
+        "macd": -0.006,
+        "macd_signal": -0.0061,
+        "macd_hist": 0.0,
+        "volatility_20d": 12.85,
+        "momentum_20d": -3.08,
+        "high_52w": 0.652,
+        "low_52w": 0.535,
+        "from_high_52w_pct": -17.94,
+        "from_low_52w_pct": 0.0,
+        "price_percentile_1y": 0.0,
+        "trend": "下降"
+      }
+    },
+    {
+      "code": "562500",
+      "name": "机器人ETF",
+      "market": "A股",
+      "type": "ETF",
+      "watch_reason": "",
+      "core_metrics": "",
+      "ideal_buy": "",
+      "status": "",
+      "price": 1.112,
+      "change": 0.45,
+      "volume": 14804623.0,
+      "amount": 1646753874.0,
+      "turnover_rate": 6.27,
+      "main_net_inflow": -190716640.0,
+      "main_net_inflow_pct": -11.58,
+      "technicals": {
+        "status": "ok",
+        "as_of": "2026-01-19",
+        "data_points": 301,
+        "ma20": 1.0288,
+        "ma60": 0.9921,
+        "price_vs_ma20_pct": 8.09,
+        "price_vs_ma60_pct": 12.09,
+        "rsi14": 84.78,
+        "macd": 0.0356,
+        "macd_signal": 0.0272,
+        "macd_hist": 0.0084,
+        "volatility_20d": 20.54,
+        "momentum_20d": 19.44,
+        "high_52w": 1.112,
+        "low_52w": 0.728,
+        "from_high_52w_pct": 0.0,
+        "from_low_52w_pct": 52.75,
+        "price_percentile_1y": 100.0,
+        "trend": "上升"
+      }
+    }
+  ],
+  "macro": {
+    "pmi": {
+      "date": "2025-08-31",
+      "manufacturing": 49.4,
+      "non_manufacturing": 50.3,
+      "caixin_manufacturing": 50.5,
+      "caixin_services": 53.0,
+      "source": "AKShare"
+    },
+    "cpi": {
+      "date": "2025-08-09",
+      "yoy": 0.0,
+      "mom": 0.4,
+      "source": "AKShare"
+    },
+    "m2": {
+      "date": "2025-08-13",
+      "yoy": 8.8,
+      "source": "AKShare"
+    }
+  },
+  "north_flow": {
+    "today": {
+      "date": "2026-01-19",
+      "net_flow": 0.0,
+      "source": "summary"
+    },
+    "recent_5_days": [
+      {
+        "date": "2024-08-12",
+        "net_flow": -7.72990000000002
+      },
+      {
+        "date": "2024-08-13",
+        "net_flow": -25.273899999999998
+      },
+      {
+        "date": "2024-08-14",
+        "net_flow": -71.6644
+      },
+      {
+        "date": "2024-08-15",
+        "net_flow": 122.0584
+      },
+      {
+        "date": "2024-08-16",
+        "net_flow": -67.7499
+      }
+    ],
+    "history_last_date": "2024-08-16",
+    "history_stale_days": 521,
+    "history_status": "stale",
+    "intraday": {
+      "date": "2026-01-19",
+      "time": "15:00",
+      "net_flow": 0.0,
+      "source": "min"
+    }
+  },
+  "sector": {
+    "industry": [
+      {
+        "rank": 1,
+        "name": "贵金属",
+        "code": "BK0732",
+        "price": 2494.59,
+        "change": 5.39,
+        "turnover_rate": 4.85,
+        "up": 10,
+        "down": 0,
+        "leader": "四川黄金",
+        "leader_change": 9.99
+      },
+      {
+        "rank": 2,
+        "name": "电网设备",
+        "code": "BK0457",
+        "price": 41675.42,
+        "change": 5.28,
+        "turnover_rate": 8.89,
+        "up": 133,
+        "down": 6,
+        "leader": "森源电气",
+        "leader_change": 10.08
+      },
+      {
+        "rank": 3,
+        "name": "航天航空",
+        "code": "BK0480",
+        "price": 69547.84,
+        "change": 4.03,
+        "turnover_rate": 5.04,
+        "up": 40,
+        "down": 6,
+        "leader": "北摩高科",
+        "leader_change": 9.99
+      },
+      {
+        "rank": 4,
+        "name": "化肥行业",
+        "code": "BK0731",
+        "price": 1888.12,
+        "change": 3.15,
+        "turnover_rate": 2.67,
+        "up": 26,
+        "down": 0,
+        "leader": "云图控股",
+        "leader_change": 9.97
+      },
+      {
+        "rank": 5,
+        "name": "旅游酒店",
+        "code": "BK0485",
+        "price": 18201.12,
+        "change": 3.05,
+        "turnover_rate": 4.41,
+        "up": 35,
+        "down": 3,
+        "leader": "九华旅游",
+        "leader_change": 9.99
+      },
+      {
+        "rank": 6,
+        "name": "化纤行业",
+        "code": "BK0471",
+        "price": 20048.62,
+        "change": 2.99,
+        "turnover_rate": 2.4,
+        "up": 28,
+        "down": 3,
+        "leader": "新乡化纤",
+        "leader_change": 10.06
+      },
+      {
+        "rank": 7,
+        "name": "农药兽药",
+        "code": "BK0730",
+        "price": 1406.06,
+        "change": 2.75,
+        "turnover_rate": 2.89,
+        "up": 42,
+        "down": 3,
+        "leader": "利尔化学",
+        "leader_change": 10.01
+      },
+      {
+        "rank": 8,
+        "name": "航空机场",
+        "code": "BK0420",
+        "price": 5667.89,
+        "change": 2.58,
+        "turnover_rate": 1.1,
+        "up": 13,
+        "down": 1,
+        "leader": "中国东航",
+        "leader_change": 6.06
+      },
+      {
+        "rank": 9,
+        "name": "电源设备",
+        "code": "BK1034",
+        "price": 3259.9,
+        "change": 2.48,
+        "turnover_rate": 3.67,
+        "up": 26,
+        "down": 6,
+        "leader": "海博思创",
+        "leader_change": 11.07
+      },
+      {
+        "rank": 10,
+        "name": "风电设备",
+        "code": "BK1032",
+        "price": 1686.85,
+        "change": 2.29,
+        "turnover_rate": 5.9,
+        "up": 29,
+        "down": 4,
+        "leader": "泰胜风能",
+        "leader_change": 12.63
+      },
+      {
+        "rank": 11,
+        "name": "包装材料",
+        "code": "BK0733",
+        "price": 1480.8,
+        "change": 2.28,
+        "turnover_rate": 3.53,
+        "up": 24,
+        "down": 4,
+        "leader": "嘉美包装",
+        "leader_change": 9.97
+      },
+      {
+        "rank": 12,
+        "name": "玻璃玻纤",
+        "code": "BK0546",
+        "price": 55627.17,
+        "change": 2.17,
+        "turnover_rate": 3.69,
+        "up": 19,
+        "down": 3,
+        "leader": "九鼎新材",
+        "leader_change": 9.98
+      },
+      {
+        "rank": 13,
+        "name": "公用事业",
+        "code": "BK0427",
+        "price": 9475.48,
+        "change": 2.16,
+        "turnover_rate": 1.35,
+        "up": 21,
+        "down": 2,
+        "leader": "百通能源",
+        "leader_change": 10.02
+      },
+      {
+        "rank": 14,
+        "name": "化学原料",
+        "code": "BK1019",
+        "price": 1090.98,
+        "change": 2.07,
+        "turnover_rate": 2.83,
+        "up": 72,
+        "down": 11,
+        "leader": "君正集团",
+        "leader_change": 8.68
+      },
+      {
+        "rank": 15,
+        "name": "钢铁行业",
+        "code": "BK0479",
+        "price": 9566.43,
+        "change": 1.89,
+        "turnover_rate": 2.2,
+        "up": 39,
+        "down": 5,
+        "leader": "广东明珠",
+        "leader_change": 9.99
+      },
+      {
+        "rank": 16,
+        "name": "橡胶制品",
+        "code": "BK1018",
+        "price": 1808.35,
+        "change": 1.87,
+        "turnover_rate": 2.83,
+        "up": 28,
+        "down": 8,
+        "leader": "海安集团",
+        "leader_change": 9.48
+      },
+      {
+        "rank": 17,
+        "name": "商业百货",
+        "code": "BK0482",
+        "price": 20969.41,
+        "change": 1.87,
+        "turnover_rate": 2.76,
+        "up": 46,
+        "down": 12,
+        "leader": "新华百货",
+        "leader_change": 9.99
+      },
+      {
+        "rank": 18,
+        "name": "小金属",
+        "code": "BK1027",
+        "price": 3718.03,
+        "change": 1.86,
+        "turnover_rate": 3.69,
+        "up": 30,
+        "down": 10,
+        "leader": "博迁新材",
+        "leader_change": 10.0
+      },
+      {
+        "rank": 19,
+        "name": "多元金融",
+        "code": "BK0738",
+        "price": 727.8,
+        "change": 1.79,
+        "turnover_rate": 1.25,
+        "up": 19,
+        "down": 1,
+        "leader": "越秀资本",
+        "leader_change": 10.0
+      },
+      {
+        "rank": 20,
+        "name": "食品饮料",
+        "code": "BK0438",
+        "price": 31198.55,
+        "change": 1.76,
+        "turnover_rate": 2.07,
+        "up": 104,
+        "down": 13,
+        "leader": "泉阳泉",
+        "leader_change": 10.04
+      }
+    ],
+    "concept": [
+      {
+        "rank": 1,
+        "name": "特高压",
+        "code": "BK0918",
+        "price": 2828.38,
+        "change": 4.41,
+        "turnover_rate": 6.84,
+        "up": 79,
+        "down": 5,
+        "leader": "森源电气",
+        "leader_change": 10.08
+      },
+      {
+        "rank": 2,
+        "name": "地热能",
+        "code": "BK0622",
+        "price": 4923.12,
+        "change": 3.72,
+        "turnover_rate": 3.58,
+        "up": 8,
+        "down": 0,
+        "leader": "开山股份",
+        "leader_change": 14.24
+      },
+      {
+        "rank": 3,
+        "name": "智能电网",
+        "code": "BK0581",
+        "price": 2394.59,
+        "change": 3.63,
+        "turnover_rate": 7.28,
+        "up": 156,
+        "down": 28,
+        "leader": "汉缆股份",
+        "leader_change": 10.09
+      },
+      {
+        "rank": 4,
+        "name": "免税概念",
+        "code": "BK0927",
+        "price": 1617.55,
+        "change": 3.51,
+        "turnover_rate": 1.52,
+        "up": 21,
+        "down": 0,
+        "leader": "广百股份",
+        "leader_change": 9.95
+      },
+      {
+        "rank": 5,
+        "name": "通用航空",
+        "code": "BK0625",
+        "price": 6947.15,
+        "change": 3.49,
+        "turnover_rate": 2.9,
+        "up": 28,
+        "down": 9,
+        "leader": "北摩高科",
+        "leader_change": 9.99
+      },
+      {
+        "rank": 6,
+        "name": "草甘膦",
+        "code": "BK0950",
+        "price": 1861.17,
+        "change": 3.25,
+        "turnover_rate": 2.93,
+        "up": 12,
+        "down": 0,
+        "leader": "江山股份",
+        "leader_change": 7.62
+      },
+      {
+        "rank": 7,
+        "name": "大飞机",
+        "code": "BK0814",
+        "price": 2132.98,
+        "change": 3.18,
+        "turnover_rate": 4.23,
+        "up": 83,
+        "down": 15,
+        "leader": "北摩高科",
+        "leader_change": 9.99
+      },
+      {
+        "rank": 8,
+        "name": "熔盐储能",
+        "code": "BK1103",
+        "price": 1208.98,
+        "change": 3.11,
+        "turnover_rate": 2.8,
+        "up": 11,
+        "down": 0,
+        "leader": "百川畅银",
+        "leader_change": 7.22
+      },
+      {
+        "rank": 9,
+        "name": "娃哈哈概念",
+        "code": "BK1165",
+        "price": 1744.56,
+        "change": 3.01,
+        "turnover_rate": 2.47,
+        "up": 17,
+        "down": 3,
+        "leader": "嘉美包装",
+        "leader_change": 9.97
+      },
+      {
+        "rank": 10,
+        "name": "昨日涨停",
+        "code": "BK0815",
+        "price": 27592.07,
+        "change": 2.86,
+        "turnover_rate": 11.18,
+        "up": 42,
+        "down": 20,
+        "leader": "森源电气",
+        "leader_change": 10.08
+      },
+      {
+        "rank": 11,
+        "name": "航母概念",
+        "code": "BK0715",
+        "price": 1186.22,
+        "change": 2.86,
+        "turnover_rate": 2.36,
+        "up": 26,
+        "down": 6,
+        "leader": "航发科技",
+        "leader_change": 10.0
+      },
+      {
+        "rank": 12,
+        "name": "虚拟电厂",
+        "code": "BK0958",
+        "price": 2501.4,
+        "change": 2.83,
+        "turnover_rate": 4.58,
+        "up": 48,
+        "down": 14,
+        "leader": "大连电瓷",
+        "leader_change": 10.05
+      },
+      {
+        "rank": 13,
+        "name": "噪声防治",
+        "code": "BK1082",
+        "price": 1733.33,
+        "change": 2.83,
+        "turnover_rate": 5.56,
+        "up": 7,
+        "down": 2,
+        "leader": "恒大高新",
+        "leader_change": 9.94
+      },
+      {
+        "rank": 14,
+        "name": "抽水蓄能",
+        "code": "BK1003",
+        "price": 1804.31,
+        "change": 2.81,
+        "turnover_rate": 3.89,
+        "up": 28,
+        "down": 6,
+        "leader": "国电南自",
+        "leader_change": 9.97
+      },
+      {
+        "rank": 15,
+        "name": "超级电容",
+        "code": "BK0703",
+        "price": 5203.88,
+        "change": 2.76,
+        "turnover_rate": 3.84,
+        "up": 29,
+        "down": 2,
+        "leader": "博迁新材",
+        "leader_change": 10.0
+      },
+      {
+        "rank": 16,
+        "name": "昨日连板",
+        "code": "BK0816",
+        "price": 2384.45,
+        "change": 2.73,
+        "turnover_rate": 26.6,
+        "up": 3,
+        "down": 1,
+        "leader": "新华百货",
+        "leader_change": 9.99
+      },
+      {
+        "rank": 17,
+        "name": "昨日涨停_含一字",
+        "code": "BK1050",
+        "price": 14332.81,
+        "change": 2.72,
+        "turnover_rate": 11.11,
+        "up": 46,
+        "down": 21,
+        "leader": "森源电气",
+        "leader_change": 10.08
+      },
+      {
+        "rank": 18,
+        "name": "磷化工",
+        "code": "BK1010",
+        "price": 1043.57,
+        "change": 2.67,
+        "turnover_rate": 2.81,
+        "up": 39,
+        "down": 6,
+        "leader": "云图控股",
+        "leader_change": 9.97
+      },
+      {
+        "rank": 19,
+        "name": "环氧丙烷",
+        "code": "BK1011",
+        "price": 671.23,
+        "change": 2.65,
+        "turnover_rate": 1.69,
+        "up": 18,
+        "down": 3,
+        "leader": "维远股份",
+        "leader_change": 8.52
+      },
+      {
+        "rank": 20,
+        "name": "煤化工",
+        "code": "BK0492",
+        "price": 11863.43,
+        "change": 2.63,
+        "turnover_rate": 2.12,
+        "up": 69,
+        "down": 3,
+        "leader": "特变电工",
+        "leader_change": 9.99
+      }
+    ],
+    "source": "AKShare"
+  },
+  "fund_flow": {
+    "industry": [
+      {
+        "rank": 1,
+        "name": "贵金属",
+        "index": 5344.42,
+        "change": 5.39,
+        "inflow": 80.07,
+        "outflow": 61.3,
+        "net_flow": 18.77,
+        "company_count": 11,
+        "leader": "四川黄金",
+        "leader_change": 9.99,
+        "price": 37.65
+      },
+      {
+        "rank": 2,
+        "name": "电网设备",
+        "index": 7335.7,
+        "change": 5.23,
+        "inflow": 425.21,
+        "outflow": 374.95,
+        "net_flow": 50.26,
+        "company_count": 139,
+        "leader": "亿能电力",
+        "leader_change": 29.96,
+        "price": 24.51
+      },
+      {
+        "rank": 3,
+        "name": "旅游及酒店",
+        "index": 3625.7,
+        "change": 3.13,
+        "inflow": 40.02,
+        "outflow": 31.48,
+        "net_flow": 8.55,
+        "company_count": 35,
+        "leader": "大连圣亚",
+        "leader_change": 10.0,
+        "price": 48.53
+      },
+      {
+        "rank": 4,
+        "name": "农化制品",
+        "index": 5523.93,
+        "change": 2.94,
+        "inflow": 94.78,
+        "outflow": 69.99,
+        "net_flow": 24.78,
+        "company_count": 61,
+        "leader": "利尔化学",
+        "leader_change": 10.01,
+        "price": 16.38
+      },
+      {
+        "rank": 5,
+        "name": "军工装备",
+        "index": 2826.79,
+        "change": 2.92,
+        "inflow": 353.07,
+        "outflow": 298.77,
+        "net_flow": 54.3,
+        "company_count": 81,
+        "leader": "航亚科技",
+        "leader_change": 15.01,
+        "price": 35.79
+      },
+      {
+        "rank": 6,
+        "name": "石油加工贸易",
+        "index": 3775.05,
+        "change": 2.88,
+        "inflow": 34.56,
+        "outflow": 21.75,
+        "net_flow": 12.81,
+        "company_count": 28,
+        "leader": "渤海化学",
+        "leader_change": 10.02,
+        "price": 4.5
+      },
+      {
+        "rank": 7,
+        "name": "机场航运",
+        "index": 2454.56,
+        "change": 2.7,
+        "inflow": 27.48,
+        "outflow": 18.69,
+        "net_flow": 8.79,
+        "company_count": 13,
+        "leader": "中国东航",
+        "leader_change": 6.05,
+        "price": 6.13
+      },
+      {
+        "rank": 8,
+        "name": "化学纤维",
+        "index": 4313.02,
+        "change": 2.64,
+        "inflow": 28.7,
+        "outflow": 21.61,
+        "net_flow": 7.09,
+        "company_count": 29,
+        "leader": "新乡化纤",
+        "leader_change": 10.06,
+        "price": 6.78
+      },
+      {
+        "rank": 9,
+        "name": "其他电源设备",
+        "index": 7003.85,
+        "change": 2.57,
+        "inflow": 105.43,
+        "outflow": 82.54,
+        "net_flow": 22.89,
+        "company_count": 32,
+        "leader": "海博思创",
+        "leader_change": 11.07,
+        "price": 278.5
+      },
+      {
+        "rank": 10,
+        "name": "造纸",
+        "index": 2312.31,
+        "change": 2.49,
+        "inflow": 19.29,
+        "outflow": 15.07,
+        "net_flow": 4.21,
+        "company_count": 23,
+        "leader": "荣晟环保",
+        "leader_change": 8.74,
+        "price": 14.8
+      },
+      {
+        "rank": 11,
+        "name": "风电设备",
+        "index": 5547.19,
+        "change": 2.4,
+        "inflow": 134.91,
+        "outflow": 89.42,
+        "net_flow": 45.49,
+        "company_count": 31,
+        "leader": "泰胜风能",
+        "leader_change": 12.63,
+        "price": 16.23
+      },
+      {
+        "rank": 12,
+        "name": "化学原料",
+        "index": 3462.89,
+        "change": 2.24,
+        "inflow": 78.67,
+        "outflow": 57.44,
+        "net_flow": 21.23,
+        "company_count": 60,
+        "leader": "君正集团",
+        "leader_change": 8.68,
+        "price": 5.76
+      },
+      {
+        "rank": 13,
+        "name": "小金属",
+        "index": 8697.46,
+        "change": 2.23,
+        "inflow": 171.86,
+        "outflow": 154.33,
+        "net_flow": 17.53,
+        "company_count": 27,
+        "leader": "中国铀业",
+        "leader_change": 7.9,
+        "price": 80.28
+      },
+      {
+        "rank": 14,
+        "name": "养殖业",
+        "index": 3222.1,
+        "change": 2.06,
+        "inflow": 34.63,
+        "outflow": 30.09,
+        "net_flow": 4.54,
+        "company_count": 38,
+        "leader": "回盛生物",
+        "leader_change": 8.18,
+        "price": 28.16
+      },
+      {
+        "rank": 15,
+        "name": "建筑材料",
+        "index": 6098.53,
+        "change": 2.05,
+        "inflow": 72.73,
+        "outflow": 63.79,
+        "net_flow": 8.94,
+        "company_count": 71,
+        "leader": "法狮龙",
+        "leader_change": 9.99,
+        "price": 66.47
+      },
+      {
+        "rank": 16,
+        "name": "钢铁",
+        "index": 1862.53,
+        "change": 2.04,
+        "inflow": 70.67,
+        "outflow": 60.04,
+        "net_flow": 10.64,
+        "company_count": 43,
+        "leader": "广东明珠",
+        "leader_change": 9.99,
+        "price": 8.48
+      },
+      {
+        "rank": 17,
+        "name": "食品加工制造",
+        "index": 5627.48,
+        "change": 1.94,
+        "inflow": 33.5,
+        "outflow": 24.69,
+        "net_flow": 8.81,
+        "company_count": 66,
+        "leader": "立高食品",
+        "leader_change": 7.34,
+        "price": 46.09
+      },
+      {
+        "rank": 18,
+        "name": "电机",
+        "index": 4031.61,
+        "change": 1.91,
+        "inflow": 69.25,
+        "outflow": 57.44,
+        "net_flow": 11.81,
+        "company_count": 25,
+        "leader": "奕帆传动",
+        "leader_change": 6.75,
+        "price": 47.14
+      },
+      {
+        "rank": 19,
+        "name": "燃气",
+        "index": 1890.46,
+        "change": 1.86,
+        "inflow": 21.56,
+        "outflow": 16.73,
+        "net_flow": 4.83,
+        "company_count": 28,
+        "leader": "胜通能源",
+        "leader_change": 10.0,
+        "price": 54.78
+      },
+      {
+        "rank": 20,
+        "name": "化学制品",
+        "index": 7725.01,
+        "change": 1.85,
+        "inflow": 163.9,
+        "outflow": 129.12,
+        "net_flow": 34.78,
+        "company_count": 175,
+        "leader": "乐通股份",
+        "leader_change": 10.04,
+        "price": 12.93
+      }
+    ],
+    "concept": [
+      {
+        "rank": 1,
+        "name": "柔性直流输电",
+        "index": 1604.62,
+        "change": 5.14,
+        "inflow": 367.47,
+        "outflow": 313.09,
+        "net_flow": 54.38,
+        "company_count": 54,
+        "leader": "双杰电气",
+        "leader_change": 20.0,
+        "price": 14.82
+      },
+      {
+        "rank": 2,
+        "name": "特高压",
+        "index": 5049.62,
+        "change": 4.29,
+        "inflow": 573.57,
+        "outflow": 509.66,
+        "net_flow": 63.91,
+        "company_count": 117,
+        "leader": "灿能电力",
+        "leader_change": 17.72,
+        "price": 28.1
+      },
+      {
+        "rank": 3,
+        "name": "草甘膦",
+        "index": 1631.84,
+        "change": 3.46,
+        "inflow": 19.05,
+        "outflow": 13.67,
+        "net_flow": 5.38,
+        "company_count": 17,
+        "leader": "利尔化学",
+        "leader_change": 10.01,
+        "price": 16.38
+      },
+      {
+        "rank": 4,
+        "name": "海南自贸区",
+        "index": 1861.46,
+        "change": 3.42,
+        "inflow": 101.89,
+        "outflow": 74.5,
+        "net_flow": 27.4,
+        "company_count": 29,
+        "leader": "海南发展",
+        "leader_change": 10.0,
+        "price": 18.59
+      },
+      {
+        "rank": 5,
+        "name": "环氧丙烷",
+        "index": 1544.31,
+        "change": 2.98,
+        "inflow": 46.87,
+        "outflow": 30.32,
+        "net_flow": 16.55,
+        "company_count": 24,
+        "leader": "渤海化学",
+        "leader_change": 10.02,
+        "price": 4.5
+      },
+      {
+        "rank": 6,
+        "name": "航空发动机",
+        "index": 3740.07,
+        "change": 2.98,
+        "inflow": 311.09,
+        "outflow": 268.69,
+        "net_flow": 42.41,
+        "company_count": 95,
+        "leader": "欧科亿",
+        "leader_change": 20.0,
+        "price": 39.78
+      },
+      {
+        "rank": 7,
+        "name": "智能电网",
+        "index": 4200.88,
+        "change": 2.93,
+        "inflow": 901.54,
+        "outflow": 825.75,
+        "net_flow": 75.79,
+        "company_count": 260,
+        "leader": "亿能电力",
+        "leader_change": 29.96,
+        "price": 24.51
+      },
+      {
+        "rank": 8,
+        "name": "免税店",
+        "index": 1223.35,
+        "change": 2.81,
+        "inflow": 78.58,
+        "outflow": 54.11,
+        "net_flow": 24.48,
+        "company_count": 28,
+        "leader": "海南发展",
+        "leader_change": 10.0,
+        "price": 18.59
+      },
+      {
+        "rank": 9,
+        "name": "超级电容",
+        "index": 2979.47,
+        "change": 2.76,
+        "inflow": 167.27,
+        "outflow": 147.72,
+        "net_flow": 19.55,
+        "company_count": 36,
+        "leader": "中国西电",
+        "leader_change": 10.04,
+        "price": 14.36
+      },
+      {
+        "rank": 10,
+        "name": "抽水蓄能",
+        "index": 1613.61,
+        "change": 2.54,
+        "inflow": 437.21,
+        "outflow": 338.03,
+        "net_flow": 99.18,
+        "company_count": 70,
+        "leader": "保变电气",
+        "leader_change": 10.03,
+        "price": 15.69
+      },
+      {
+        "rank": 11,
+        "name": "PVDF概念",
+        "index": 1398.93,
+        "change": 2.47,
+        "inflow": 40.57,
+        "outflow": 34.79,
+        "net_flow": 5.78,
+        "company_count": 17,
+        "leader": "昊华科技",
+        "leader_change": 10.0,
+        "price": 38.18
+      },
+      {
+        "rank": 12,
+        "name": "煤化工概念",
+        "index": 2599.9,
+        "change": 2.47,
+        "inflow": 279.71,
+        "outflow": 190.87,
+        "net_flow": 88.84,
+        "company_count": 99,
+        "leader": "特变电工",
+        "leader_change": 9.99,
+        "price": 30.5
+      },
+      {
+        "rank": 13,
+        "name": "消毒剂",
+        "index": 2257.53,
+        "change": 2.46,
+        "inflow": 78.8,
+        "outflow": 63.54,
+        "net_flow": 15.27,
+        "company_count": 59,
+        "leader": "金安国纪",
+        "leader_change": 9.99,
+        "price": 20.37
+      },
+      {
+        "rank": 14,
+        "name": "电力物联网",
+        "index": 2433.2,
+        "change": 2.44,
+        "inflow": 226.1,
+        "outflow": 208.96,
+        "net_flow": 17.14,
+        "company_count": 82,
+        "leader": "双杰电气",
+        "leader_change": 20.0,
+        "price": 14.82
+      },
+      {
+        "rank": 15,
+        "name": "大飞机",
+        "index": 4324.49,
+        "change": 2.44,
+        "inflow": 534.21,
+        "outflow": 474.72,
+        "net_flow": 59.49,
+        "company_count": 148,
+        "leader": "图南股份",
+        "leader_change": 17.09,
+        "price": 39.2
+      },
+      {
+        "rank": 16,
+        "name": "托育服务",
+        "index": 1192.51,
+        "change": 2.42,
+        "inflow": 25.32,
+        "outflow": 25.84,
+        "net_flow": -0.52,
+        "company_count": 16,
+        "leader": "和晶科技",
+        "leader_change": 19.98,
+        "price": 9.61
+      },
+      {
+        "rank": 17,
+        "name": "华为数字能源",
+        "index": 1638.16,
+        "change": 2.36,
+        "inflow": 101.96,
+        "outflow": 99.46,
+        "net_flow": 2.49,
+        "company_count": 44,
+        "leader": "双杰电气",
+        "leader_change": 20.0,
+        "price": 14.82
+      },
+      {
+        "rank": 18,
+        "name": "国产航母",
+        "index": 2488.59,
+        "change": 2.31,
+        "inflow": 180.67,
+        "outflow": 145.69,
+        "net_flow": 34.98,
+        "company_count": 36,
+        "leader": "中航机载",
+        "leader_change": 10.02,
+        "price": 15.81
+      },
+      {
+        "rank": 19,
+        "name": "丙烯酸",
+        "index": 2065.81,
+        "change": 2.31,
+        "inflow": 42.1,
+        "outflow": 32.09,
+        "net_flow": 10.01,
+        "company_count": 18,
+        "leader": "渤海化学",
+        "leader_change": 10.02,
+        "price": 4.5
+      },
+      {
+        "rank": 20,
+        "name": "风电",
+        "index": 1398.4,
+        "change": 2.31,
+        "inflow": 1177.09,
+        "outflow": 1018.21,
+        "net_flow": 158.87,
+        "company_count": 409,
+        "leader": "双杰电气",
+        "leader_change": 20.0,
+        "price": 14.82
+      }
+    ],
+    "source": "AKShare"
+  },
+  "news": [
+    {
+      "time": "14:36:43",
+      "title": "梅德韦杰夫发文讽刺MAGA：让美国再次伟大  等于让欧洲再次贫穷",
+      "importance": "普通"
+    },
+    {
+      "time": "14:38:53",
+      "title": "",
+      "importance": "普通"
+    },
+    {
+      "time": "14:39:25",
+      "title": "美财长称欧洲终将明白需要美国保护",
+      "importance": "普通"
+    },
+    {
+      "time": "14:44:04",
+      "title": "小米玄戒O2或继续用台积电3nm",
+      "importance": "普通"
+    },
+    {
+      "time": "14:47:29",
+      "title": "",
+      "importance": "普通"
+    },
+    {
+      "time": "14:48:33",
+      "title": "中财经文化：调整基金公司管理团队 将确保所涉相关基金在到期前合规依约有序退出",
+      "importance": "普通"
+    },
+    {
+      "time": "14:54:38",
+      "title": "婴童概念尾盘异动 汉商集团直线涨停",
+      "importance": "普通"
+    },
+    {
+      "time": "14:56:00",
+      "title": "机构：2025年全球亿万富翁财富飙升至18.3万亿美元",
+      "importance": "普通"
+    },
+    {
+      "time": "14:59:03",
+      "title": "中国石油集团董事长戴厚良会见蒙古国工业与矿产资源部部长",
+      "importance": "普通"
+    },
+    {
+      "time": "15:01:37",
+      "title": "国内商品期货多数收跌 沪锡跌近6%",
+      "importance": "普通"
+    },
+    {
+      "time": "15:02:09",
+      "title": "收评：创业板指冲高回落跌0.7% 贵金属、电网设备板块集体走强",
+      "importance": "普通"
+    },
+    {
+      "time": "15:03:12",
+      "title": "默克中国与镁睿化学签署合作备忘录 将共同开发定制化AI模型",
+      "importance": "普通"
+    },
+    {
+      "time": "15:03:36",
+      "title": "原山西晋城无烟煤矿业集团副总经理都新建接受审查调查",
+      "importance": "普通"
+    },
+    {
+      "time": "15:04:04",
+      "title": "百亿私募阵营“3进2出” 险资私募闪电破百亿",
+      "importance": "普通"
+    },
+    {
+      "time": "15:04:59",
+      "title": "欧洲主要股指期货下跌",
+      "importance": "普通"
+    }
+  ]
+}
