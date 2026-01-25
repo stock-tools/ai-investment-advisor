@@ -33,7 +33,7 @@ user-invocable: true
 
 运行数据获取脚本：
 ```bash
-cd "股市信息" && python3 scripts/fetch_market_data.py
+cd 股市信息 && python3 scripts/fetch_market_data.py
 ```
 
 **脚本输出包含**：
