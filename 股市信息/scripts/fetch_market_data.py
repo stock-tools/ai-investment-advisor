@@ -345,7 +345,7 @@ def enrich_with_technicals(items):
 def parse_holdings_md():
     """从 Holdings.md 解析持仓配置"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    holdings_path = os.path.join(script_dir, "..", "Config", "Holdings.md")
+    holdings_path = os.path.join(script_dir, "../..", "Config", "Holdings.md")
 
     holdings_etf = {}
     holdings_stock = {}
@@ -422,7 +422,7 @@ def parse_holdings_md():
 def parse_watchlist_md():
     """从 Watchlist.md 解析关注池"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    watchlist_path = os.path.join(script_dir, "..", "Config", "Watchlist.md")
+    watchlist_path = os.path.join(script_dir, "../..", "Config", "Watchlist.md")
 
     watchlist_items = []
     focus_industries = []
